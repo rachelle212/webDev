@@ -1,4 +1,4 @@
-<%-- 
+<%<%-- 
     Document   : index.jsp
     Created on : 01-Apr-2017
     Author     : Abhishek
@@ -11,6 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Library</title>
+        
         <script type="text/javascript">
         function validate() {
             // javascript code to validate user input 
@@ -147,14 +148,41 @@
             </form>
                          <h3> Books to be Swapped...</h3>
                         <td>Title</td>
-                        <td><input type="text" name="title" onfocus="this.value"/></td> 
+                        <td><input type="text" name="title1" onfocus="this.value"/></td> 
                         <td>Edition</td>
-                        <td><input type="text" name="Edition" onfocus="this.value"/></td> 
+                        <td><input type="text" name="Edition1" onfocus="this.value"/></td> 
                         <td>ISBN</td>
-                        <td><input type="text" name="ISBN" onfocus="this.value"/></td>
+                        <td><input type="text" name="ISBN1" onfocus="this.value"/></td>
+                        <td>Course</td>
+                        <td><input type="text" name="Course1" onfocus="this.value"/></td>
+                        <td>Semester</td>
+                        <td><input type="text" name="Semester1" onfocus="this.value"/></td>
+                        <td>Year</td>
+                        <td><input type="text" name="Year1" onfocus="this.value"/></td>
                         <br>
                         <br>
-                                    <tr>
+                        
+                        <a href=" "> + Click to Add New Row</a>
+                        <br><br>
+                       
+                        <h3> Books Needed...</h3>
+                        <td>Title</td>
+                        <td><input type="text" name="title2" onfocus="this.value"/></td> 
+                        <td>Edition</td>
+                        <td><input type="text" name="Edition2" onfocus="this.value"/></td> 
+                        <td>ISBN</td>
+                        <td><input type="text" name="ISBN2" onfocus="this.value"/></td>
+                        <td>Course</td>
+                        <td><input type="text" name="Course2" onfocus="this.value"/></td>
+                        <td>Semester</td>
+                        <td><input type="text" name="Semester2" onfocus="this.value"/></td>
+                        <td>Year</td>
+                        <td><input type="text" name="Year2" onfocus="this.value"/></td>
+                        <br>
+                        <br>
+                        
+                        <a href=" "> + Click to Add New Row</a>
+                        <br><br>
                         <td><input type="submit" name="signup" value="Sign up" /></td>
                         <td>
                             <span id="msg"> </span>                                     <!-- span tag to print validation errors -->
